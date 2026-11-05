@@ -208,6 +208,7 @@ symbol .fill { fill: currentColor; stroke: none; }
   border-radius: 6px;
   font-size: 15px;
   color: var(--muted);
+  white-space: nowrap;
   transition: color .15s;
 }
 .nav__links a:hover { color: var(--text); }
@@ -485,6 +486,9 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
   gap: 48px;
   align-items: center;
 }
+/* 사진을 오른쪽에 두는 변형 (좁은 화면에서는 사진이 위로) */
+.split--rev { grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); }
+.split--rev > .shot { order: 2; }
 .feature-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .feature-list li {
   display: flex;
@@ -745,6 +749,10 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 @media (max-width: 1080px) {
   .grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero__inner { grid-template-columns: minmax(0, 9fr) minmax(0, 11fr); padding-left: 24px; }
+  /* 메뉴 다섯 개가 한 줄에 들어가도록 간격을 좁힌다 */
+  .nav__inner { gap: 16px; }
+  .nav__links { gap: 2px; }
+  .nav__links a { padding: 6px 8px; font-size: 14px; }
 }
 
 @media (max-width: 900px) {
@@ -758,7 +766,8 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
   .hero__visual { max-width: 720px; }
   .hero__sub { font-size: 16px; }
   .hero__scroll { display: none; }
-  .split, .split--ai { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .split, .split--ai, .split--rev { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .split--rev > .shot { order: 0; }
   .grid--3 { grid-template-columns: minmax(0, 1fr); }
   .flow__lines { display: none; }
   .flow__src { margin-bottom: 16px; }
