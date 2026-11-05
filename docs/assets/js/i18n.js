@@ -29,7 +29,7 @@
 
   const en = {
     'meta.title': 'Khaydarin Studio — StarCraft map-making editor',
-    'meta.desc': 'A StarCraft: Remastered map-making tool that combines a map editor and a data/EUD editor. Terrain, DAT editing, EUD builds and AI (MCP) integration — in a single window.',
+    'meta.desc': 'A StarCraft: Remastered map-making tool that combines a map editor and a data/EUD editor. Terrain, DAT editing, epScript coding, EUD builds and AI (MCP) integration — in a single window.',
 
     'skip': 'Skip to content',
     'nav.home': 'Khaydarin Studio home',
@@ -49,13 +49,15 @@
     'hero.scroll': 'Scroll down',
 
     'intro.h': 'A complete workspace <em>for map makers</em>',
-    'intro.p': 'Khaydarin Studio brings together the map editor <strong>ScmDraft 2</strong> and the data/EUD editor <strong>EUD Editor</strong>.<br>Map, data and AI work flow naturally within a single project.',
+    'intro.p': 'Khaydarin Studio brings together the map editor <strong>ScmDraft 2</strong> and the data/EUD editor <strong>EUD Editor</strong>.<br>Map, data, code and AI work flow naturally within a single project.',
     'pillar.map.h': 'Map editing',
     'pillar.map.p': 'Edit ISOM terrain, units, doodads, locations, symmetric placement and text triggers — while seeing the Remastered graphics exactly as in game.',
     'pillar.map.link': 'See map editing features',
     'pillar.data.h': 'Data editing',
     'pillar.data.p': 'Modify DATs such as units · weapons · upgrades, requirements, game strings and button sets, then build straight into an EUD map.',
     'pillar.data.link': 'See data editing features',
+    'pillar.code.h': 'Code editor (epScript)',
+    'pillar.code.p': 'A built-in epScript editor for developers. Write scripts with language-server features like autocomplete and hover, then build them together with the map.',
     'pillar.ai.h': 'AI integration (MCP)',
     'pillar.ai.p': 'A built-in MCP server lets AI like Claude drive the editor directly. Results appear on screen instantly and can be undone with Ctrl+Z.',
     'pillar.ai.link': 'Learn about AI integration',
@@ -145,14 +147,14 @@
     'status.planned.list': '<li>WAV management</li><li>ScmDraft plugin (.sdp) compatibility</li>',
 
     'cta.h': 'Make your next map in <em>Khaydarin Studio</em>',
-    'cta.p': 'Map editing · data editing · EUD builds · AI integration, all in a single editor.',
+    'cta.p': 'Map editing · data editing · code editing · AI integration, all in a single editor.',
     'cta.issues': 'Feature requests · Bug reports',
 
     'footer.nav': 'Shortcuts',
     'footer.releases': 'Releases',
     'footer.issues': 'Issues',
     'footer.top': 'Back to top',
-    'footer.oss': 'Open source used: StormLib · CascLib · WPF-UI · AvalonEdit · euddraft (run externally at build time)',
+    'footer.oss': 'Open source used: StormLib · CascLib · WPF-UI · AvalonEdit · zuhanit/epscript-lsp · euddraft (run externally at build time)',
     'footer.tm': 'StarCraft and StarCraft: Brood War are trademarks of Blizzard Entertainment. This project is not affiliated with Blizzard.',
 
     // 스크립트에서 쓰는 문구

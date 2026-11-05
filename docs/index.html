@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net; img-src 'self' data:; connect-src https://api.github.com; base-uri 'self'; form-action 'none'; object-src 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Khaydarin Studio — 스타크래프트 맵 제작 에디터</title>
-  <meta name="description" content="맵 에디터와 데이터·EUD 에디터를 하나로 합친 StarCraft: Remastered용 맵 제작 도구. 지형부터 DAT 편집, EUD 빌드, AI(MCP) 연동까지 한 창에서.">
+  <meta name="description" content="맵 에디터와 데이터·EUD 에디터를 하나로 합친 StarCraft: Remastered용 맵 제작 도구. 지형부터 DAT 편집, epScript 코드 편집, EUD 빌드, AI(MCP) 연동까지 한 창에서.">
   <meta name="theme-color" content="#09090b">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Khaydarin Studio">
@@ -132,9 +132,9 @@
       <div class="container">
         <header class="sec-head reveal">
           <h2 data-i18n="intro.h">맵 제작자를 위한 <em>종합 워크스페이스</em></h2>
-          <p data-i18n="intro.p">Khaydarin Studio는 맵 에디터 <strong>ScmDraft 2</strong>와 데이터·EUD 에디터 <strong>EUD Editor</strong>를 하나로 합쳤어요.<br>맵 · 데이터 · AI 세 가지 작업이 같은 프로젝트 안에서 자연스럽게 이어집니다.</p>
+          <p data-i18n="intro.p">Khaydarin Studio는 맵 에디터 <strong>ScmDraft 2</strong>와 데이터·EUD 에디터 <strong>EUD Editor</strong>를 하나로 합쳤어요.<br>맵 · 데이터 · 코드 · AI 네 가지 작업이 같은 프로젝트 안에서 자연스럽게 이어집니다.</p>
         </header>
-        <div class="grid grid--3">
+        <div class="grid grid--4">
           <article class="card card--pillar reveal" data-tone="violet">
             <svg class="ico ico--lg"><use href="#i-map"/></svg>
             <h3 data-i18n="pillar.map.h">맵 편집</h3>
@@ -146,6 +146,11 @@
             <h3 data-i18n="pillar.data.h">데이터 편집</h3>
             <p data-i18n="pillar.data.p">units · weapons · upgrades 같은 DAT와 요구 조건, 게임 문자열, 버튼셋을 고치고 EUD 맵으로 바로 빌드해요.</p>
             <a class="link" href="#data"><svg class="ico"><use href="#i-arrow"/></svg><span data-i18n="pillar.data.link">데이터 편집 기능 보기</span></a>
+          </article>
+          <article class="card card--pillar reveal" data-tone="green">
+            <svg class="ico ico--lg"><use href="#i-code"/></svg>
+            <h3 data-i18n="pillar.code.h">코드 에디터 (epScript)</h3>
+            <p data-i18n="pillar.code.p">개발자를 위한 epScript 편집기가 들어 있어요. 자동 완성·호버 같은 언어 서버 기능으로 스크립트를 쓰고, 맵과 함께 빌드해요.</p>
           </article>
           <article class="card card--pillar reveal" data-tone="amber">
             <svg class="ico ico--lg"><use href="#i-bot"/></svg>
@@ -331,7 +336,7 @@
         <div class="cta reveal">
           <img src="assets/img/logo.png" alt="" width="64" height="64" loading="lazy">
           <h2 data-i18n="cta.h">다음 맵은 <em>Khaydarin Studio</em>에서</h2>
-          <p data-i18n="cta.p">맵 편집 · 데이터 편집 · EUD 빌드 · AI 연동을 하나의 에디터에서.</p>
+          <p data-i18n="cta.p">맵 편집 · 데이터 편집 · 코드 편집 · AI 연동을 하나의 에디터에서.</p>
           <div class="hero__cta">
             <a class="btn btn--accent" href="#download"><svg class="ico"><use href="#i-down"/></svg><span data-i18n="nav.download">다운로드</span></a>
             <a class="btn btn--ghost" href="https://github.com/saebyeok0306/Khaydarin-Studio/issues" target="_blank" rel="noopener noreferrer"><span data-i18n="cta.issues">기능 건의 · 버그 제보</span><svg class="ico"><use href="#i-arrow"/></svg></a>
@@ -352,7 +357,7 @@
         <a href="https://github.com/saebyeok0306/Khaydarin-Studio/issues" target="_blank" rel="noopener noreferrer" data-i18n="footer.issues">이슈</a>
         <a href="#top" data-i18n="footer.top">맨 위로</a>
       </nav>
-      <p class="footer__note" data-i18n="footer.oss">사용한 오픈소스: StormLib · CascLib · WPF-UI · AvalonEdit · euddraft(빌드 시 외부 실행)</p>
+      <p class="footer__note" data-i18n="footer.oss">사용한 오픈소스: StormLib · CascLib · WPF-UI · AvalonEdit · zuhanit/epscript-lsp · euddraft(빌드 시 외부 실행)</p>
       <p class="footer__note" data-i18n="footer.tm">StarCraft와 StarCraft: Brood War는 Blizzard Entertainment의 상표입니다. 이 프로젝트는 Blizzard와 관련이 없습니다.</p>
     </div>
   </footer>
