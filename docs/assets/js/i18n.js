@@ -160,8 +160,6 @@
     'status.partial.list': '<li>iscript (playback only)</li><li>Overlay · glow layer display</li>',
     'status.planned.list': '<li>WAV management</li><li>ScmDraft plugin (.sdp) compatibility</li>',
 
-    'cta.h': 'Make your next map in <em>Khaydarin Studio</em>',
-    'cta.p': 'Map editing · data editing · code editing · AI integration, all in a single editor.',
     'cta.issues': 'Feature requests · Bug reports',
 
     'footer.nav': 'Shortcuts',
