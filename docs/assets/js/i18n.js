@@ -99,6 +99,8 @@
     'd4.p': 'Edit position, icon, conditions, actions and tooltips while viewing all 250 command cards in the in-game 3×3 layout.',
     'd5.h': 'Preview',
     'd5.p': 'See unit appearance and collision size, iscript playback, and weapon projectiles, range and splash radius at a glance.',
+    'd6.h': 'Import EUD Editor 3 projects',
+    'd6.p': 'Open a project you were working on in EUD Editor 3 and pick up editing its data right where you left off in Khaydarin Studio.',
     'code.eyebrow': 'For developers',
     'code.h': 'Scripts in the same window: <em>the code editor</em>',
     'code.p': 'Open and edit the epScript files in your map project folder right inside the editor.<br>A language server suggests completions and type info, and building puts your scripts into the map.',
@@ -156,7 +158,7 @@
     'status.done': 'Done',
     'status.partial': 'Partial',
     'status.planned': 'Planned',
-    'status.done.list': '<li>Map read / write</li><li>Terrain (ISOM) · Units · Doodads · Sprites</li><li>Locations · Fog of war</li><li>Symmetric editing</li><li>Players · Forces · Strings</li><li>Text triggers</li><li>Undo / Redo</li><li>DAT · Requirements · stat_txt · Button sets</li><li>EUD build</li>',
+    'status.done.list': '<li>Map read / write</li><li>Terrain (ISOM) · Units · Doodads · Sprites</li><li>Locations · Fog of war</li><li>Symmetric editing</li><li>Players · Forces · Strings</li><li>Text triggers</li><li>Undo / Redo</li><li>DAT · Requirements · stat_txt · Button sets</li><li>EUD build</li><li>EUD Editor 3 project import</li>',
     'status.partial.list': '<li>iscript (playback only)</li><li>Overlay · glow layer display</li>',
     'status.planned.list': '<li>WAV management</li><li>ScmDraft plugin (.sdp) compatibility</li>',
 
