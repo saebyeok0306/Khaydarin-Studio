@@ -199,7 +199,6 @@ symbol .fill { fill: currentColor; stroke: none; }
   padding: 0 24px;
 }
 .nav__brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
-.nav__brand img { border-radius: 50%; }
 .nav__links { display: flex; gap: 6px; }
 .nav__links a {
   padding: 6px 10px;
@@ -327,8 +326,7 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 .hero__brand img {
   width: clamp(60px, 6vw, 84px);
   height: auto;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px rgba(165, 166, 246, .25), 0 0 48px rgba(129, 131, 244, .35);
+  filter: drop-shadow(0 0 24px rgba(129, 131, 244, .35));
 }
 .hero__title {
   margin-top: 26px;
@@ -708,7 +706,6 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 .footer { padding: 48px 0 56px; border-top: 1px solid rgba(255, 255, 255, .05); }
 .footer__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
 .footer__brand { display: flex; align-items: center; gap: 8px; font-weight: 700; }
-.footer__brand img { border-radius: 50%; }
 .footer__links { display: flex; gap: 18px; margin-left: auto; }
 .footer__links a { color: var(--muted); font-size: 14px; }
 .footer__links a:hover { color: var(--text); }
