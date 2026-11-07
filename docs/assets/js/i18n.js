@@ -163,6 +163,7 @@
     'status.planned.list': '<li>WAV management</li><li>ScmDraft plugin (.sdp) compatibility</li>',
 
     'cta.issues': 'Feature requests · Bug reports',
+    'cta.discord': 'Join our Discord',
 
     'footer.nav': 'Shortcuts',
     'footer.releases': 'Releases',

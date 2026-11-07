@@ -699,8 +699,10 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 
 /* 기능 건의 · 버그 제보 */
 /* 위 섹션의 아래 여백과 겹치므로, 그 위에 올려 클릭이 섹션에 가로막히지 않게 한다 */
-.feedback { position: relative; z-index: 1; display: flex; justify-content: center; margin-top: -40px; padding-bottom: 96px; }
+.feedback { position: relative; z-index: 1; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: -40px; padding-bottom: 96px; }
 .feedback .ico { width: 18px; height: 18px; }
+.btn--discord:hover { border-color: #5865f2; color: var(--text); }
+.btn--discord:hover .ico { color: #5865f2; }
 
 /* footer */
 .footer { padding: 48px 0 56px; border-top: 1px solid rgba(255, 255, 255, .05); }
