@@ -671,32 +671,6 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 }
 .tag--opt { background: rgba(255, 255, 255, .07); color: var(--muted); }
 
-/* status */
-.status__col h3 { display: flex; align-items: center; gap: 8px; font-size: 18px; margin-bottom: 16px; }
-.status__col[data-state="done"] h3 { color: var(--green); }
-.status__col[data-state="partial"] h3 { color: var(--amber); }
-.status__col[data-state="planned"] h3 { color: var(--muted); }
-.status__col h3 .ico { width: 20px; height: 20px; }
-.status__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-.status__col li {
-  position: relative;
-  padding-left: 16px;
-  color: var(--text-2);
-  font-size: 14.5px;
-}
-.status__col li::before {
-  content: "";
-  position: absolute;
-  left: 2px;
-  top: .7em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: currentColor;
-  opacity: .4;
-}
-.status__col[data-state="planned"] li { color: var(--muted); }
-
 /* 기능 건의 · 버그 제보 */
 /* 위 섹션의 아래 여백과 겹치므로, 그 위에 올려 클릭이 섹션에 가로막히지 않게 한다 */
 .feedback { position: relative; z-index: 1; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: -40px; padding-bottom: 96px; }

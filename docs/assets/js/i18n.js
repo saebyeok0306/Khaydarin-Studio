@@ -38,7 +38,6 @@
     'nav.data': 'Data editing',
     'nav.code': 'Code editor',
     'nav.ai': 'AI integration',
-    'nav.status': 'Roadmap',
     'nav.lang': 'Language',
     'nav.github': 'GitHub repository',
     'nav.download': 'Download',
@@ -152,15 +151,6 @@
     'req1.p': 'Game data is read directly from the install folder, which is located automatically via the registry.',
     'req2.p': 'Only needed to build EUD maps. Set its path in the Settings screen.',
     'req3.p': 'Powers language-server features such as autocompletion and hover in the script editor. Editing works without it.',
-
-    'status.h': 'Still <em>in the making</em>',
-    'status.p': 'We’re bringing over the features of the two original programs one by one.',
-    'status.done': 'Done',
-    'status.partial': 'Partial',
-    'status.planned': 'Planned',
-    'status.done.list': '<li>Map read / write</li><li>Terrain (ISOM) · Units · Doodads · Sprites</li><li>Locations · Fog of war</li><li>Symmetric editing</li><li>Players · Forces · Strings</li><li>Text triggers</li><li>Undo / Redo</li><li>DAT · Requirements · stat_txt · Button sets</li><li>EUD build</li><li>EUD Editor 3 project import</li>',
-    'status.partial.list': '<li>iscript (playback only)</li><li>Overlay · glow layer display</li>',
-    'status.planned.list': '<li>WAV management</li><li>ScmDraft plugin (.sdp) compatibility</li>',
 
     'cta.issues': 'Feature requests · Bug reports',
     'cta.discord': 'Join our Discord',
