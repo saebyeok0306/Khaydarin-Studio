@@ -547,6 +547,7 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
 
 /* AI section */
 .split--ai { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; }
+.ai-features { margin-top: 56px; }
 .ai__copy > p { margin-top: 20px; color: var(--muted); line-height: 1.8; }
 .ticks { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 10px; }
 .ticks li { display: flex; gap: 10px; color: var(--text-2); font-size: 15px; line-height: 1.6; }
