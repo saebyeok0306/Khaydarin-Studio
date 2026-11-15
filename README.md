@@ -18,6 +18,14 @@ Khaydarin Studio는 맵 에디터 ScmDraft 2와 데이터·EUD 에디터 EUD Edi
 - **알아서 저장** — 바뀐 값은 가능하면 맵 설정에, 그렇지 않으면 EUD로 나뉘어 저장되고, 빌드할 때 euddraft 플러그인으로 만들어져요.
 - **AI 연동 (MCP)** — 내장 MCP 서버로 Claude 같은 AI가 에디터를 직접 다뤄요. 모든 작업은 Ctrl+Z로 되돌릴 수 있어요.
 
+## AI 연동 가이드
+
+에디터의 AI 채팅(Ctrl+Shift+A)에서 쓸 AI 클라이언트를 설치하고 연결하는 방법이에요.
+
+- [Claude Code](guide/claude/guide.md)
+- [Codex](guide/codex/guide.md)
+- [Antigravity (Gemini)](guide/gemini/guide.md)
+
 ## 필요한 것
 
 - **StarCraft: Remastered** (필수) — 게임 데이터를 설치 폴더에서 직접 읽어요.

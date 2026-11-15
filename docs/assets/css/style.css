@@ -585,6 +585,11 @@ html.i18n-pending body { visibility: hidden; animation: i18nReveal 0s linear 1.2
   overflow-wrap: anywhere;
 }
 .codebox__body code::selection { background: rgba(129, 131, 244, .35); color: #fff; }
+.guides { margin-top: 20px; }
+.guides__label { display: block; color: var(--dim); font-size: 12.5px; }
+.guides__links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.guides__links .ico { width: 14px; height: 14px; }
+
 .copy-btn {
   display: inline-flex;
   align-items: center;

@@ -140,6 +140,7 @@
     'ai.t3': 'External MCP clients such as Claude, Codex and local Ollama models connect over <strong>HTTP</strong> or <strong>CLI (stdio)</strong>',
     'ai.t4': 'Expose only the tool groups small models need (<code>?tools=units,triggers</code>)',
     'ai.code': 'Connect while the editor is running (127.0.0.1 only)',
+    'ai.guide': 'AI client setup guides (Korean)',
     'copy.aria': 'Copy command',
     'chat.aria': 'AI integration example',
     'chat.head': 'AI chat',
