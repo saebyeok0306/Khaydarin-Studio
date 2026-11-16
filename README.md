@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://saebyeok0306.github.io/Khaydarin-Studio/"><img src="assets/img/banner.svg" alt="Khaydarin Studio — 스타크래프트 맵 제작을 위한 에디터" width="100%"></a>
+  <a href="https://saebyeok0306.github.io/Khaydarin-Studio/"><img src="https://github.com/saebyeok0306/Khaydarin-Studio/blob/main/docs/assets/img/banner.svg" alt="Khaydarin Studio — 스타크래프트 맵 제작을 위한 에디터" width="100%"></a>
 </p>
 
 # Khaydarin Studio
